@@ -38,7 +38,7 @@ for lt, ln, el, nam, vol_ty in zip(lat, lon, elev, name, volcano_type):
 map.add_child(fg)
 map.add_child(folium.LayerControl())
 
-map.save("Map1.html")
+map.save("index.html")
 
 
 
